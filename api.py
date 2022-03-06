@@ -43,7 +43,7 @@ class Machine(Resource):
 api.add_resource(Machine, '/edr') 
 #api.add_resource(MachinesList, '/edr/<string:ip>')
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
 
 #find specific file --->$ find $PWD -type f | grep "testfile", $ realpath "filename"
