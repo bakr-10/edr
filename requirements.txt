@@ -3,3 +3,4 @@ Flask-RESTful
 pymongo
 netmiko
 uwsgi
+dnspython
