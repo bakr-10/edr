@@ -3,7 +3,7 @@ from flask import Flask, request
 from flask_restful import Resource, Api
 from netmiko import ConnectHandler
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://bakrmo:0100_2967089Bm@cluster0.gg5rc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.edr
 
 app = Flask(__name__)
